@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		952A87E91FD599A700D2BA6D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A87E81FD599A700D2BA6D /* FeedViewController.swift */; };
 		95682DD21FD6B7FE0079D541 /* PhotoDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95682DD11FD6B7FE0079D541 /* PhotoDetails.storyboard */; };
 		95682DD41FD6B8A60079D541 /* AlbumsAndProfiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95682DD31FD6B8A60079D541 /* AlbumsAndProfiles.storyboard */; };
 		959877AD1FD1A3440060300C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959877AC1FD1A3440060300C /* UIView.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		952A87E81FD599A700D2BA6D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		95682DD11FD6B7FE0079D541 /* PhotoDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoDetails.storyboard; sourceTree = "<group>"; };
 		95682DD31FD6B8A60079D541 /* AlbumsAndProfiles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbumsAndProfiles.storyboard; sourceTree = "<group>"; };
 		959877AC1FD1A3440060300C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -67,16 +65,15 @@
 			isa = PBXGroup;
 			children = (
 				95DAB4E81FD17F0400ACA156 /* AppDelegate.swift */,
+				95DAB4F11FD17F0400ACA156 /* LaunchScreen.storyboard */,
 				95DAB4EC1FD17F0400ACA156 /* Main.storyboard */,
 				95682DD31FD6B8A60079D541 /* AlbumsAndProfiles.storyboard */,
 				95682DD11FD6B7FE0079D541 /* PhotoDetails.storyboard */,
 				95DAB4EF1FD17F0400ACA156 /* Assets.xcassets */,
-				95DAB4F11FD17F0400ACA156 /* LaunchScreen.storyboard */,
 				959877AC1FD1A3440060300C /* UIView.swift */,
 				95DAB4EA1FD17F0400ACA156 /* ViewControllers.swift */,
 				959877AE1FD1A7510060300C /* PhotoViewController.swift */,
 				95DD862C1FD1DEE9009AB4D9 /* CommentsViewController.swift */,
-				952A87E81FD599A700D2BA6D /* FeedViewController.swift */,
 				95DAB4F41FD17F0400ACA156 /* Info.plist */,
 			);
 			path = Photos;
@@ -160,7 +157,6 @@
 				959877AF1FD1A7510060300C /* PhotoViewController.swift in Sources */,
 				959877AD1FD1A3440060300C /* UIView.swift in Sources */,
 				95DD862D1FD1DEE9009AB4D9 /* CommentsViewController.swift in Sources */,
-				952A87E91FD599A700D2BA6D /* FeedViewController.swift in Sources */,
 				95DAB4E91FD17F0400ACA156 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

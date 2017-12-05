@@ -19,5 +19,3 @@ class ProfileViewController: UIViewController {
 class AlbumsViewController: UIViewController {
 	@IBAction func dismissPhoto(_ segue: UIStoryboardSegue) {}
 }
-
-

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kh8-R2-82E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kh8-R2-82E">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -97,7 +97,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ksp-eo-fKo" kind="presentation" id="NXD-fj-sJB"/>
+                                            <segue destination="ksp-eo-fKo" kind="presentation" modalTransitionStyle="crossDissolve" id="NXD-fj-sJB"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="57" id="wh6-RU-xqR">
@@ -296,6 +296,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="AMQ-cJ-9L8" kind="show" id="Fbw-Q4-0gF"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -646,7 +649,7 @@
                 <viewControllerPlaceholder storyboardName="PhotoDetails" referencedIdentifier="Photo" id="ksp-eo-fKo" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYD-BA-H1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2955" y="-27"/>
+            <point key="canvasLocation" x="2904" y="-125"/>
         </scene>
         <!--Comments-->
         <scene sceneID="INo-Im-wLG">
@@ -654,7 +657,7 @@
                 <viewControllerPlaceholder storyboardName="PhotoDetails" referencedIdentifier="Comments" id="lXt-fl-113" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLO-Qw-eeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2980" y="169"/>
+            <point key="canvasLocation" x="2930" y="71"/>
         </scene>
         <!--Profile-->
         <scene sceneID="SYc-YR-8xP">
@@ -700,10 +703,10 @@
             </objects>
             <point key="canvasLocation" x="1172" y="1653"/>
         </scene>
-        <!--Albums-->
+        <!--AlbumsAndProfiles-->
         <scene sceneID="ay2-9v-Shv">
             <objects>
-                <viewControllerPlaceholder storyboardName="AlbumsAndProfiles" referencedIdentifier="Albums" id="ANE-MG-H87" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="AlbumsAndProfiles" id="ANE-MG-H87" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="BTQ-F0-Jmt"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdd-jn-PfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -765,6 +768,6 @@
         <image name="sebastien-gabriel-353369 small" width="750" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hxm-I3-h5T"/>
+        <segue reference="Fbw-Q4-0gF"/>
     </inferredMetricsTieBreakers>
 </document>

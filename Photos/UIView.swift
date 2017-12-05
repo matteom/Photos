@@ -8,28 +8,7 @@
 
 import UIKit
 
-extension CGRect {
-	func shifted(by x: CGFloat) -> CGRect {
-		var newRect = self
-		newRect.origin.x += x
-		return newRect
-	}
-}
-
-//@IBDesignable class DesignableImageView: UIImageView {}
-//@IBDesignable class DesignableStackView: UIStackView {}
-//@IBDesignable class DesignableView: UIView {}
-
-//@IBDesignable
-class DesignableTextField: UITextField {
-	override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-		return bounds.shifted(by: 16.0)
-	}
-
-	override func editingRect(forBounds bounds: CGRect) -> CGRect {
-		return bounds.shifted(by: 16.0)
-	}
-}
+@IBDesignable class DesignableImageView: UIImageView {}
 
 extension UIView {
 	@IBInspectable var cornerRadius: CGFloat {
@@ -51,3 +30,21 @@ extension UIView {
 	}
 }
 
+extension CGRect {
+	func shifted(by x: CGFloat) -> CGRect {
+		var newRect = self
+		newRect.origin.x += x
+		return newRect
+	}
+}
+
+@IBDesignable
+class DesignableTextField: UITextField {
+	override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+		return bounds.shifted(by: 16.0)
+	}
+	
+	override func editingRect(forBounds bounds: CGRect) -> CGRect {
+		return bounds.shifted(by: 16.0)
+	}
+}
